@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated uPorto -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="uPorto.presentation.UPortoModelWizardID"
+            name="%_UI_UPortoModelWizard_label"
+            class="uPorto.presentation.UPortoModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/UPortoModelFile.gif">
+         <description>%_UI_UPortoModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated uPorto -->
+      <editor
+            id="uPorto.presentation.UPortoEditorID"
+            name="%_UI_UPortoEditor_label"
+            icon="icons/full/obj16/UPortoModelFile.gif"
+            extensions="uporto"
+            class="uPorto.presentation.UPortoEditor"
+            contributorClass="uPorto.presentation.UPortoActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

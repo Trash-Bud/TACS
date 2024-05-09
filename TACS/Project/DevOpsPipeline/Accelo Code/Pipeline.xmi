@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devOpsPipeline:Pipeline
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:devOpsPipeline="http://www.example.org/devOpsPipeline">
+  <sourcerepo
+      location="./tacs"
+      name="TACS">
+    <branch
+        name="main"/>
+    <job dockerMachine="ubuntu-latest"
+        name="build">
+      <action
+          name="Build "
+          tool="nodejs"
+          script="script.js">
+        <token
+            token="token3"/>
+      </action>
+      <token
+          token="token1"/>
+      <uploadartifactaction
+          name="Upload Action"
+          artifactName=""
+          path="./artifact/upload"
+          job="//@sourcerepo/@job.0"/>
+      <downloadartifactaction
+          name="Download Action"
+          uploadartifactaction="//@sourcerepo/@job.0/@uploadartifactaction.0"/>
+      <downloadartifactaction
+          name="Download2 Action"
+          uploadartifactaction="//@sourcerepo/@job.1/@uploadartifactaction.0"/>
+    </job>
+    <job dockerMachine="uwu"
+        name="hi">
+      <uploadartifactaction
+          name="aaa"
+          path="aaaa"
+          job="//@sourcerepo/@job.1"/>
+    </job>
+  </sourcerepo>
+</devOpsPipeline:Pipeline>

@@ -1,0 +1,29 @@
+name: main
+
+on:
+  push:
+    branches:
+    		- '*'
+  pull_request:
+    branches:
+    		- '*'
+
+jobs:
+	: 
+
+		runs-on: 
+		steps: 
+		- name: Checkout Repository
+      	  uses: actions/checkout@v2
+
+
+		
+		- name: upload gcghvh
+		  uses: actions/upload-artifact@v4
+		  with:
+				path: 
+				name: 
+
+		env: 
+			token1_TOKEN: ${{ secrets.token1 }}
+

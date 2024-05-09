@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uPorto:University xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uPorto="http://www.example.org/uPorto" Name="Universidade do Porto" Location="Porto">
+  <faculty name="Faculdade de Engenharia" address="Rua Dr. Roberto Frias, s/n 4200-465 Porto, Portugal" acronym="FEUP" polo="Asprela (Polo 2)" email="feup@fe.up.pt" website="https://www.fe.up.pt">
+    <degree>
+      <course>
+        <edition>
+          <student/>
+        </edition>
+      </course>
+    </degree>
+    <professor/>
+    <department/>
+  </faculty>
+</uPorto:University>

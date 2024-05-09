@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="ASCII"?>
+<history:History xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:history="http://www.eclipse.org/emf/edapt/history/0.3" xmi:id="_V8fdcFolEe67_ZCUp2B9Xg">
+  <releases xmi:id="_V8fdcVolEe67_ZCUp2B9Xg" date="2023-09-23T17:25:05.923+0100">
+    <changes xsi:type="history:CompositeChange" xmi:id="_V8fdclolEe67_ZCUp2B9Xg">
+      <changes xsi:type="history:Create" xmi:id="_V8fdc1olEe67_ZCUp2B9Xg">
+        <element href="coffee.ecore#/"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fddFolEe67_ZCUp2B9Xg" featureName="name" dataValue="coffee">
+          <element href="coffee.ecore#/"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fddVolEe67_ZCUp2B9Xg" featureName="nsURI" dataValue="http://www.eclipse.org/emfforms/example/coffeemodel">
+          <element href="coffee.ecore#/"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fddlolEe67_ZCUp2B9Xg" featureName="nsPrefix" dataValue="org.eclipse.emfforms.coffee.model">
+          <element href="coffee.ecore#/"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdd1olEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Component"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdeFolEe67_ZCUp2B9Xg" featureName="name" dataValue="Component">
+          <element href="coffee.ecore#//Component"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdeVolEe67_ZCUp2B9Xg" featureName="abstract" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdelolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Component"/>
+        <element href="coffee.ecore#//Component/parent"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fde1olEe67_ZCUp2B9Xg" featureName="name" dataValue="parent">
+          <element href="coffee.ecore#//Component/parent"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdfFolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Component/parent"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdfVolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Component"/>
+        <element href="coffee.ecore#//Component/children"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdflolEe67_ZCUp2B9Xg" featureName="name" dataValue="children">
+          <element href="coffee.ecore#//Component/children"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdf1olEe67_ZCUp2B9Xg" featureName="upperBound" dataValue="-1" oldDataValue="1">
+          <element href="coffee.ecore#//Component/children"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdgFolEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//Component/children"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdgVolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Component/children"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdglolEe67_ZCUp2B9Xg" featureName="eOpposite">
+          <element href="coffee.ecore#//Component/children"/>
+          <referenceValue href="coffee.ecore#//Component/parent"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdg1olEe67_ZCUp2B9Xg" featureName="eOpposite">
+          <element href="coffee.ecore#//Component/parent"/>
+          <referenceValue href="coffee.ecore#//Component/children"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdhFolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Component"/>
+        <element href="coffee.ecore#//Component/cost"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdhVolEe67_ZCUp2B9Xg" featureName="name" dataValue="cost">
+          <element href="coffee.ecore#//Component/cost"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdhlolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Component/cost"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdh1olEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Machine"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdiFolEe67_ZCUp2B9Xg" featureName="name" dataValue="Machine">
+          <element href="coffee.ecore#//Machine"/>
+        </changes>
+        <changes xsi:type="history:Add" xmi:id="_V8fdiVolEe67_ZCUp2B9Xg" featureName="eSuperTypes">
+          <element href="coffee.ecore#//Machine"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdilolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Machine"/>
+        <element href="coffee.ecore#//Machine/modelName"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdi1olEe67_ZCUp2B9Xg" featureName="name" dataValue="name">
+          <element href="coffee.ecore#//Machine/modelName"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdjFolEe67_ZCUp2B9Xg" featureName="lowerBound" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//Machine/modelName"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdjVolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Machine/modelName"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdjlolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//ControlUnit"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdj1olEe67_ZCUp2B9Xg" featureName="name" dataValue="ControlUnit">
+          <element href="coffee.ecore#//ControlUnit"/>
+        </changes>
+        <changes xsi:type="history:Add" xmi:id="_V8fdkFolEe67_ZCUp2B9Xg" featureName="eSuperTypes">
+          <element href="coffee.ecore#//ControlUnit"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdkVolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//ControlUnit"/>
+        <element href="coffee.ecore#//ControlUnit/userDescription"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdklolEe67_ZCUp2B9Xg" featureName="name" dataValue="userDescription">
+          <element href="coffee.ecore#//ControlUnit/userDescription"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdk1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//ControlUnit/userDescription"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdlFolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//BrewingUnit"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdlVolEe67_ZCUp2B9Xg" featureName="name" dataValue="BrewingUnit">
+          <element href="coffee.ecore#//BrewingUnit"/>
+        </changes>
+        <changes xsi:type="history:Add" xmi:id="_V8fdllolEe67_ZCUp2B9Xg" featureName="eSuperTypes">
+          <element href="coffee.ecore#//BrewingUnit"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdl1olEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//DipTray"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdmFolEe67_ZCUp2B9Xg" featureName="name" dataValue="DipTray">
+          <element href="coffee.ecore#//DipTray"/>
+        </changes>
+        <changes xsi:type="history:Add" xmi:id="_V8fdmVolEe67_ZCUp2B9Xg" featureName="eSuperTypes">
+          <element href="coffee.ecore#//DipTray"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdmlolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//WaterTank"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdm1olEe67_ZCUp2B9Xg" featureName="name" dataValue="WaterTank">
+          <element href="coffee.ecore#//WaterTank"/>
+        </changes>
+        <changes xsi:type="history:Add" xmi:id="_V8fdnFolEe67_ZCUp2B9Xg" featureName="eSuperTypes">
+          <element href="coffee.ecore#//WaterTank"/>
+          <referenceValue href="coffee.ecore#//Component"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdnVolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Processor"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdnlolEe67_ZCUp2B9Xg" featureName="name" dataValue="Processor">
+          <element href="coffee.ecore#//Processor"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdn1olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//ControlUnit"/>
+        <element href="coffee.ecore#//ControlUnit/processor"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdoFolEe67_ZCUp2B9Xg" featureName="name" dataValue="processor">
+          <element href="coffee.ecore#//ControlUnit/processor"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdoVolEe67_ZCUp2B9Xg" featureName="lowerBound" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//ControlUnit/processor"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdololEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//ControlUnit/processor"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdo1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//ControlUnit/processor"/>
+          <referenceValue href="coffee.ecore#//Processor"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdpFolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/vendor"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdpVolEe67_ZCUp2B9Xg" featureName="name" dataValue="vendor">
+          <element href="coffee.ecore#//Processor/vendor"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdplolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/vendor"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdp1olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/clockSpeed"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdqFolEe67_ZCUp2B9Xg" featureName="name" dataValue="clockSpeed">
+          <element href="coffee.ecore#//Processor/clockSpeed"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdqVolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/clockSpeed"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdqlolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/numberOfCores"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdq1olEe67_ZCUp2B9Xg" featureName="name" dataValue="numberOfCores">
+          <element href="coffee.ecore#//Processor/numberOfCores"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdrFolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/numberOfCores"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdrVolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/thermalDesignPower"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdrlolEe67_ZCUp2B9Xg" featureName="name" dataValue="thermalDesignPower">
+          <element href="coffee.ecore#//Processor/thermalDesignPower"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdr1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/thermalDesignPower"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdsFolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//RAM"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdsVolEe67_ZCUp2B9Xg" featureName="name" dataValue="RAM">
+          <element href="coffee.ecore#//RAM"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdslolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//ControlUnit"/>
+        <element href="coffee.ecore#//ControlUnit/ram"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fds1olEe67_ZCUp2B9Xg" featureName="name" dataValue="ram">
+          <element href="coffee.ecore#//ControlUnit/ram"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdtFolEe67_ZCUp2B9Xg" featureName="lowerBound" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//ControlUnit/ram"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdtVolEe67_ZCUp2B9Xg" featureName="upperBound" dataValue="-1" oldDataValue="1">
+          <element href="coffee.ecore#//ControlUnit/ram"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdtlolEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//ControlUnit/ram"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdt1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//ControlUnit/ram"/>
+          <referenceValue href="coffee.ecore#//RAM"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fduFolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//RAM"/>
+        <element href="coffee.ecore#//RAM/clockSpeed"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fduVolEe67_ZCUp2B9Xg" featureName="name" dataValue="clockSpeed">
+          <element href="coffee.ecore#//RAM/clockSpeed"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdulolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//RAM/clockSpeed"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdu1olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//RAM"/>
+        <element href="coffee.ecore#//RAM/size"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdvFolEe67_ZCUp2B9Xg" featureName="name" dataValue="size">
+          <element href="coffee.ecore#//RAM/size"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdvVolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//RAM/size"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdvlolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Activity"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdv1olEe67_ZCUp2B9Xg" featureName="name" dataValue="Activity">
+          <element href="coffee.ecore#//Activity"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdwFolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Component"/>
+        <element href="coffee.ecore#//Component/activities"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdwVolEe67_ZCUp2B9Xg" featureName="name" dataValue="activities">
+          <element href="coffee.ecore#//Component/activities"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdwlolEe67_ZCUp2B9Xg" featureName="upperBound" dataValue="-1" oldDataValue="1">
+          <element href="coffee.ecore#//Component/activities"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdw1olEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//Component/activities"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdxFolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Component/activities"/>
+          <referenceValue href="coffee.ecore#//Activity"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdxVolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Activity"/>
+        <element href="coffee.ecore#//Activity/name"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdxlolEe67_ZCUp2B9Xg" featureName="name" dataValue="name">
+          <element href="coffee.ecore#//Activity/name"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdx1olEe67_ZCUp2B9Xg" featureName="lowerBound" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//Activity/name"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdyFolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Activity/name"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdyVolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Dimension"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdylolEe67_ZCUp2B9Xg" featureName="name" dataValue="Dimension">
+          <element href="coffee.ecore#//Dimension"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fdy1olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//ControlUnit"/>
+        <element href="coffee.ecore#//ControlUnit/dimension"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fdzFolEe67_ZCUp2B9Xg" featureName="name" dataValue="dimension">
+          <element href="coffee.ecore#//ControlUnit/dimension"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdzVolEe67_ZCUp2B9Xg" featureName="lowerBound" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//ControlUnit/dimension"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdzlolEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//ControlUnit/dimension"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fdz1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//ControlUnit/dimension"/>
+          <referenceValue href="coffee.ecore#//Dimension"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd0FolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Dimension"/>
+        <element href="coffee.ecore#//Dimension/width"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd0VolEe67_ZCUp2B9Xg" featureName="name" dataValue="width">
+          <element href="coffee.ecore#//Dimension/width"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd0lolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Dimension/width"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd01olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Dimension"/>
+        <element href="coffee.ecore#//Dimension/height"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd1FolEe67_ZCUp2B9Xg" featureName="name" dataValue="height">
+          <element href="coffee.ecore#//Dimension/height"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd1VolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Dimension/height"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd1lolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Dimension"/>
+        <element href="coffee.ecore#//Dimension/length"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd11olEe67_ZCUp2B9Xg" featureName="name" dataValue="length">
+          <element href="coffee.ecore#//Dimension/length"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd2FolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Dimension/length"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd2VolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//SocketConnectorType"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd2lolEe67_ZCUp2B9Xg" featureName="name" dataValue="SocketConnectorType">
+          <element href="coffee.ecore#//SocketConnectorType"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd21olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/socketconnectorType"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd3FolEe67_ZCUp2B9Xg" featureName="name" dataValue="socketconnectorType">
+          <element href="coffee.ecore#//Processor/socketconnectorType"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd3VolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/socketconnectorType"/>
+          <referenceValue href="coffee.ecore#//SocketConnectorType"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd3lolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//SocketConnectorType"/>
+        <element href="coffee.ecore#//SocketConnectorType/A1T"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd31olEe67_ZCUp2B9Xg" featureName="name" dataValue="A1T">
+          <element href="coffee.ecore#//SocketConnectorType/A1T"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd4FolEe67_ZCUp2B9Xg" featureName="literal" dataValue="A1T">
+          <element href="coffee.ecore#//SocketConnectorType/A1T"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd4VolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//SocketConnectorType"/>
+        <element href="coffee.ecore#//SocketConnectorType/Z51"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd4lolEe67_ZCUp2B9Xg" featureName="name" dataValue="Z51">
+          <element href="coffee.ecore#//SocketConnectorType/Z51"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd41olEe67_ZCUp2B9Xg" featureName="value" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//SocketConnectorType/Z51"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd5FolEe67_ZCUp2B9Xg" featureName="literal" dataValue="Z51">
+          <element href="coffee.ecore#//SocketConnectorType/Z51"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd5VolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//ManufactoringProcess"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd5lolEe67_ZCUp2B9Xg" featureName="name" dataValue="ManufactoringProcess">
+          <element href="coffee.ecore#//ManufactoringProcess"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd51olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Processor"/>
+        <element href="coffee.ecore#//Processor/manufactoringProcess"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd6FolEe67_ZCUp2B9Xg" featureName="name" dataValue="manufactoringProcess">
+          <element href="coffee.ecore#//Processor/manufactoringProcess"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd6VolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Processor/manufactoringProcess"/>
+          <referenceValue href="coffee.ecore#//ManufactoringProcess"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd6lolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//ManufactoringProcess"/>
+        <element href="coffee.ecore#//ManufactoringProcess/nm18"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd61olEe67_ZCUp2B9Xg" featureName="name" dataValue="nm18">
+          <element href="coffee.ecore#//ManufactoringProcess/nm18"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd7FolEe67_ZCUp2B9Xg" featureName="literal" dataValue="18nm">
+          <element href="coffee.ecore#//ManufactoringProcess/nm18"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd7VolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//ManufactoringProcess"/>
+        <element href="coffee.ecore#//ManufactoringProcess/nm25"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd7lolEe67_ZCUp2B9Xg" featureName="name" dataValue="nm25">
+          <element href="coffee.ecore#//ManufactoringProcess/nm25"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd71olEe67_ZCUp2B9Xg" featureName="value" dataValue="1" oldDataValue="0">
+          <element href="coffee.ecore#//ManufactoringProcess/nm25"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd8FolEe67_ZCUp2B9Xg" featureName="literal" dataValue="nm25">
+          <element href="coffee.ecore#//ManufactoringProcess/nm25"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd8VolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//RamType"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd8lolEe67_ZCUp2B9Xg" featureName="name" dataValue="RamType">
+          <element href="coffee.ecore#//RamType"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd81olEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//RAM"/>
+        <element href="coffee.ecore#//RAM/type"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd9FolEe67_ZCUp2B9Xg" featureName="name" dataValue="type">
+          <element href="coffee.ecore#//RAM/type"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd9VolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//RAM/type"/>
+          <referenceValue href="coffee.ecore#//RamType"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd9lolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//RamType"/>
+        <element href="coffee.ecore#//RamType/SODIMM"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd91olEe67_ZCUp2B9Xg" featureName="name" dataValue="SODIMM">
+          <element href="coffee.ecore#//RamType/SODIMM"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd-FolEe67_ZCUp2B9Xg" featureName="literal" dataValue="SO-DIMM">
+          <element href="coffee.ecore#//RamType/SODIMM"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd-VolEe67_ZCUp2B9Xg" referenceName="eLiterals">
+        <target href="coffee.ecore#//RamType"/>
+        <element href="coffee.ecore#//RamType/SIDIMM"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd-lolEe67_ZCUp2B9Xg" featureName="name" dataValue="SIDIMM">
+          <element href="coffee.ecore#//RamType/SIDIMM"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8fd-1olEe67_ZCUp2B9Xg" featureName="literal" dataValue="SI-DIMM">
+          <element href="coffee.ecore#//RamType/SIDIMM"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd_FolEe67_ZCUp2B9Xg" referenceName="eClassifiers">
+        <target href="coffee.ecore#/"/>
+        <element href="coffee.ecore#//Display"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd_VolEe67_ZCUp2B9Xg" featureName="name" dataValue="Display">
+          <element href="coffee.ecore#//Display"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8fd_lolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//ControlUnit"/>
+        <element href="coffee.ecore#//ControlUnit/display"/>
+        <changes xsi:type="history:Set" xmi:id="_V8fd_1olEe67_ZCUp2B9Xg" featureName="name" dataValue="display">
+          <element href="coffee.ecore#//ControlUnit/display"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8feAFolEe67_ZCUp2B9Xg" featureName="containment" dataValue="true" oldDataValue="false">
+          <element href="coffee.ecore#//ControlUnit/display"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8feAVolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//ControlUnit/display"/>
+          <referenceValue href="coffee.ecore#//Display"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8feAlolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Display"/>
+        <element href="coffee.ecore#//Display/width"/>
+        <changes xsi:type="history:Set" xmi:id="_V8feA1olEe67_ZCUp2B9Xg" featureName="name" dataValue="width">
+          <element href="coffee.ecore#//Display/width"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8feBFolEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Display/width"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+      <changes xsi:type="history:Create" xmi:id="_V8feBVolEe67_ZCUp2B9Xg" referenceName="eStructuralFeatures">
+        <target href="coffee.ecore#//Display"/>
+        <element href="coffee.ecore#//Display/height"/>
+        <changes xsi:type="history:Set" xmi:id="_V8feBlolEe67_ZCUp2B9Xg" featureName="name" dataValue="height">
+          <element href="coffee.ecore#//Display/height"/>
+        </changes>
+        <changes xsi:type="history:Set" xmi:id="_V8feB1olEe67_ZCUp2B9Xg" featureName="eType">
+          <element href="coffee.ecore#//Display/height"/>
+          <referenceValue href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </changes>
+      </changes>
+    </changes>
+  </releases>
+  <releases xmi:id="_X5k1MFolEe67_ZCUp2B9Xg" date="2023-09-23T17:26:34.526+0100">
+    <changes xsi:type="history:OperationChange" xmi:id="_g68IAFolEe67_ZCUp2B9Xg">
+      <changes xsi:type="history:Set" xmi:id="_g68IAVolEe67_ZCUp2B9Xg" featureName="name" dataValue="modelName" oldDataValue="name">
+        <element href="coffee.ecore#//Machine/modelName"/>
+      </changes>
+      <operation xmi:id="_g68IAlolEe67_ZCUp2B9Xg" name="rename">
+        <parameters xmi:id="_g68IA1olEe67_ZCUp2B9Xg" name="element">
+          <referenceValue xmi:id="_g68IBFolEe67_ZCUp2B9Xg">
+            <element href="coffee.ecore#//Machine/modelName"/>
+          </referenceValue>
+        </parameters>
+        <parameters xmi:id="_g68IBVolEe67_ZCUp2B9Xg" name="name">
+          <dataValue>modelName</dataValue>
+        </parameters>
+      </operation>
+    </changes>
+    <changes xsi:type="history:Set" xmi:id="_lGjz4FolEe67_ZCUp2B9Xg" featureName="nsURI" dataValue="http://www.eclipse.org/emfforms/example/coffeemodel/1" oldDataValue="http://www.eclipse.org/emfforms/example/coffeemodel">
+      <element href="coffee.ecore#/"/>
+    </changes>
+  </releases>
+  <releases xmi:id="_lGjz4VolEe67_ZCUp2B9Xg"/>
+</history:History>

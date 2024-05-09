@@ -1,0 +1,81 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.example.org/devOpsPipeline')]
+
+[template public generateElement(aSourceRepo: SourceRepo)]
+
+[comment @main/]
+[file (aSourceRepo.name + '.yml', false, 'UTF-8')]
+name: [aSourceRepo.name/]
+
+on:
+  push:
+    branches:
+      [if (aSourceRepo.branch->select(b | b.onPush)->isEmpty())]
+        - '*'
+      [else]
+        [for (b: Branch | aSourceRepo.branch) separator('\n')]
+          [if b.onPush]
+            - [b.name/]
+          [/if]
+        [/for]
+      [/if]
+  pull_request:
+    branches:
+      [if (aSourceRepo.branch->select(b | b.merge)->isEmpty())]
+        - '*'
+      [else]
+        [for (b: Branch | aSourceRepo.branch) separator('\n')]
+          [if b.merge]
+            - [b.name/]
+          [/if]
+        [/for]
+      [/if]
+
+jobs:
+  [for (j: Job | aSourceRepo.job) separator('\n')]
+  [j.name/]: 
+    [if j.downloadartifactaction->notEmpty()]
+    needs: ['['/][for (n: String | j.downloadartifactaction->asSet()->collect(d | d.uploadartifactaction->asSet()->collect(a | a.job.name)->asSet())->flatten()->asSet()) separator(',')][n/][/for][']'/]
+	[/if]
+    runs-on: [j.dockerMachine/]
+    [if not j.token.oclIsUndefined()]
+    environment: 
+      [j.token.token/]_TOKEN: ${{ secrets.[j.token.token/] }}
+    [/if]
+    steps: 
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      [for (d: DownloadArtifactAction | j.downloadartifactaction) separator('\n')]
+      - name: download [d.name/]
+        uses: actions/download-artifact@v4
+        with:
+          path: [d.uploadartifactaction.path/]
+          [if d.uploadartifactaction.artifactName <> '']
+          name: [d.uploadartifactaction.artifactName/]
+          [/if]
+      [/for]
+
+      [for (a: Action | j.action) separator('\n')]
+      - name: [a.name/]
+        run: |
+          [a.tool/] [a.script/]
+          [if not a.token.oclIsUndefined()]
+          env: 
+            [a.token.token/]_TOKEN: ${{ secrets.[a.token.token/] }}
+          [/if]
+      [/for]
+
+      [for (u: UploadArtifactAction | j.uploadartifactaction) separator('\n')]
+      - name: upload [u.name/]
+        uses: actions/upload-artifact@v4
+        with:
+          path: [u.path/]
+          [if u.artifactName <> '']
+          name: [u.artifactName/]
+          [/if]
+      [/for]
+  [/for]
+
+[/file]
+[/template]

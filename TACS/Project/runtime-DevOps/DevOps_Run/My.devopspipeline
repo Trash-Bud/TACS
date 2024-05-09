@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devOpsPipeline:Pipeline xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:devOpsPipeline="http://www.example.org/devOpsPipeline">
+  <sourcerepo name="main">
+    <branch name="hhhhh"/>
+    <job>
+      <token token="token1"/>
+      <uploadartifactaction name="gcghvh" job="//@sourcerepo/@job.0"/>
+    </job>
+  </sourcerepo>
+</devOpsPipeline:Pipeline>

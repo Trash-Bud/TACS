@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ Copyright (c) 2011-2014 EclipseSource Muenchen GmbH and others.
+ 
+ All rights reserved. This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License v1.0
+ which accompanies this distribution, and is available at
+ http://www.eclipse.org/legal/epl-v10.html
+ 
+ Contributors:
+ EclipseSource Munich - initial API and implementation
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated task -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.eclipse.emf.ecp.makeithappen.model.task.presentation.TaskModelWizardID"
+            name="%_UI_TaskModelWizard_label"
+            class="org.eclipse.emf.ecp.makeithappen.model.task.presentation.TaskModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/TaskModelFile.gif">
+         <description>%_UI_TaskModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated task -->
+      <editor
+            id="org.eclipse.emf.ecp.makeithappen.model.task.presentation.TaskEditorID"
+            name="%_UI_TaskEditor_label"
+            icon="icons/full/obj16/TaskModelFile.gif"
+            extensions="task"
+            class="org.eclipse.emf.ecp.makeithappen.model.task.presentation.TaskEditor"
+            contributorClass="org.eclipse.emf.ecp.makeithappen.model.task.presentation.TaskActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
